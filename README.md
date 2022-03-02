@@ -1,5 +1,5 @@
 # GmailClone
-Jetpack Compose
+Jetpack Compose Gmail UI clone
 
 <div>
   <img src=https://user-images.githubusercontent.com/81194285/156465595-67deb0b0-80a3-4847-93c6-6e46e5b3fed4.png width="200" height="400">
