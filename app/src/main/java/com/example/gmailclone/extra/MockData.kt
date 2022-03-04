@@ -1,5 +1,8 @@
 package com.example.gmailclone.extra
 
+import android.accounts.Account
+import com.example.gmailclone.R
+import com.example.gmailclone.models.Accounts
 import com.example.gmailclone.models.MailData
 
 val mailList = listOf(
@@ -73,4 +76,11 @@ val mailList = listOf(
         body = "We have an opening that suits your profile kindly check it out and indicate your interest",
         timeStamp = "20:10"
     )
+)
+
+val accountslist= listOf<Accounts>(
+    Accounts(icon=  R.drawable.galaxy3,userName="Gmail Accounts",email="Email",99),
+    Accounts(icon=  null,userName="Gmail Accounts",email="Email",99),
+    Accounts(icon=  null,userName="Gmail Accounts",email="Email",99),
+    Accounts(icon=  null,userName="Gmail Accounts",email="Email",99)
 )
